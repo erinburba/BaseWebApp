@@ -1,19 +1,29 @@
 body {
   padding-top: 70px;
+  background-color: #211621;
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lobster', sans-serif;
   font-size: 50px;
-  text-transform: uppercase;
+  /* color: #EC9D1D; */
+  /* text-transform: uppercase; */
 }
 
 h4 {
   color: #b5b5b5;
 }
 
+a {
+  color: #A44F39;
+}
+
 .page-header {
   text-align: center;
+  /* background-color: #849AA5; */
+  background-color: #EC9D1D;
+  border-radius: 5px;
+  /* width: 80%; */
 }
 
 .tina-gif {
@@ -38,6 +48,16 @@ h4 {
   text-align: left;
 }
 
+.text-container {
+  border-radius: 5px;
+  background-color: #F3F0EF;
+  display: flex;
+  justify-content: space-around;
+  /* width: 80%; */
+  margin: 0 auto;
+  text-align: center;
+}
+
 .code-container img{
   padding: 20px;
   max-width: 300px;
@@ -50,6 +70,12 @@ h4 {
 
 .contact-container .content {
   margin-top: 50px
+}
+
+.jumbotron {
+  /* background-color: #849AA5; */
+  background-color: #EC9D1D;
+  /* color: #849AA5; */
 }
 
 .contact-icon {

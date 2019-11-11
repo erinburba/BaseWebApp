@@ -3,28 +3,29 @@
   <head>
       <% include ../helpers/head %>
   </head>
-  
-  <body>
-  
-      <header>
-          <% include ../helpers/navbar %>
-      </header>
+  <header>
+      <% include ../helpers/navbar %>
+  </header>
+
+  <body class="container">
+      
       <!-- the classes 'page-header' and 'btn btn-default' create bootstrap components.  -->
       <!-- Check out more components here: http://getbootstrap.com/components/ -->
+  
       <div class="page-header">
-      <h1>Boy Howdy!</h1>
+        <h1>Boy Howdy!</h1>
       </div>
-  
-      <p id="demo">
-      Bobby Hill was an inside job
-      </p>
-  
-      <button class="btn btn-default" type="button" onclick="myFunction()">
-      Try it
-      </button>
-  
-      <div id="doge-image"/>
-  
+      <div class="content">
+        <p id="demo" class="text-container">
+        Bobby Hill was an inside job
+        </p>
+    
+        <button class="btn btn-default" type="button" onclick="myFunction()">
+        Try it
+        </button>
+    
+        <div id="doge-image"/>
+      </div>
   </body>
   
 </html>
