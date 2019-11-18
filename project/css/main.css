@@ -1,28 +1,39 @@
 body {
   padding-top: 70px;
-  background-color: #211621;
+  background-color: #364854;
 }
 
 h1 {
-  font-family: 'Lobster', sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 50px;
-  /* color: #EC9D1D; */
+  /* color: # ; */
   /* text-transform: uppercase; */
 }
 
 h4 {
-  color: #b5b5b5;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  /* color: #b5b5b5; */
+}
+
+h3 {
+  color: #A44F39;
 }
 
 a {
   color: #A44F39;
 }
 
+/* p {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+} */
+
 .page-header {
   text-align: center;
   /* background-color: #849AA5; */
-  background-color: #EC9D1D;
+  background-color: #E07B3C;
   border-radius: 5px;
+  border: 0;
+  padding: 5px;
   /* width: 80%; */
 }
 
@@ -33,29 +44,37 @@ a {
 
 .queen-of-computers {
   width: 300px;
-  margin: 50px auto;
+  margin: 20px auto;
   border-radius: 50%;
   display: block;
 }
 
 .content {
   margin-bottom: 50px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+
 
 .code-container {
   display: flex;
   justify-content: space-around;
-  text-align: left;
+  /* text-align: left; */
+  background-color: #F4F7F7;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px auto;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .text-container {
   border-radius: 5px;
-  background-color: #F3F0EF;
-  display: flex;
+  background-color: #F4F7F7;
+  /* display: flex; */
   justify-content: space-around;
   /* width: 80%; */
-  margin: 0 auto;
-  text-align: center;
+  margin: 0 50px;
+  text-align: left;
+  padding: 20px;
 }
 
 .code-container img{
@@ -74,12 +93,12 @@ a {
 
 .jumbotron {
   /* background-color: #849AA5; */
-  background-color: #EC9D1D;
+  background-color: #E07B3C;
   /* color: #849AA5; */
 }
 
 .contact-icon {
-  font-size: 45px;
+  font-size: 65px;
   margin: 0 5px;
 }
 
@@ -98,3 +117,13 @@ a {
 .contact-icon.fa-facebook-square {
   color: #3b5998;
 }
+
+/* Light accent #B88273 */
+/* Dark accent #B56454 */
+
+
+/* Red Damask	#e07b3c	Primary
+Oxford Blue	#364854	Info
+Chelsea Cucumber	#789f4a	Success
+Tree Poppy	#f68f12	Warning
+Pomegranate	#f44336	Danger */
